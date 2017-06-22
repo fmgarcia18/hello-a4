@@ -1,5 +1,5 @@
 const gulp = require('gulp');
-const babel = requiere('gulp-babel');
+const babel = require('gulp-babel');
 
 // Gulp dependencies go here
 
