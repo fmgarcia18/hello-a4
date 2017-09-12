@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "ng": "ng",
-    "start": "node server.js",
+    "start": "ng serve",
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
@@ -15,7 +15,7 @@
   "engines": {
     "node": "~6.10.3",
     "npm": "~3.10.5"
-  }
+  },
   "private": true,
   "dependencies": {
     "@angular/cli": "1.4.1",    
