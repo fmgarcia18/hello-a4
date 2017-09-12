@@ -1,0 +1,18 @@
+<h2>Advertisements</h2>
+<ul>
+	<li *ngFor="let advertisement of advertisements">
+		{{advertisement}}
+	</li>
+</ul>
+<img src="{{imgUrl}}"/>
+<button class="btn btn-primary" [style.backgroundColor]="isActive ? 'blue':'gray'" [class.active]="isActive">Submit</button>
+<button class="btn btn-primary" (click)="onClick($event)">Aplicar</button>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12">
+			<input type="text" [(ngModel)]="title"/>
+			<p>you have a title {{title}}</p>
+		</div>
+	</div>
+</div>
